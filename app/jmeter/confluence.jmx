@@ -5618,7 +5618,7 @@ if (response_data.username != vars.get(&quot;app_specific_username&quot;)) {
                 <hashTree/>
               </hashTree>
             </hashTree>
-            <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="jmeter_app_specific_action" enabled="true">
+            <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="jmeter_app_specific_action" enabled="false">
               <boolProp name="TransactionController.includeTimers">false</boolProp>
               <boolProp name="TransactionController.parent">true</boolProp>
             </TransactionController>
